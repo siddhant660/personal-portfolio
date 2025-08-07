@@ -388,7 +388,7 @@ nav {
 .card4-img {
     height: 40%;
     width: 100%;
-    background-image: url(./simple-feature-section.png);
+    background-image: url(./images/simple-feature-section.png);
     background-position: center;
     background-size: cover;
 }
@@ -422,6 +422,26 @@ nav {
     
 }
 
+.skill-heading {
+    font-size: 2rem;
+    color:#4a5568;
+    font-family: bold;
+}
+
+.skill-container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-container-one ul , .skill-container-one ul li {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color:#4a5568;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 
 @media screen and (max-width:1200px) {
     .hero-container {
